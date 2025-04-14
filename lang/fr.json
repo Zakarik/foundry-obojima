@@ -1,0 +1,13 @@
+{
+    "SOURCE.BOOK.OBOJIMA": "Obojima",
+    "DND5E.SkillSurMec": "Mécanique",
+    "DND5E.SkillSurSal": "Récupération",
+    "EFFECT.DND5E.StatusPacify":"Pacifié",
+    "DND5E.Language.Language.Nakunaku":"Naku Naku",
+    "DND5E.Language.Language.Torum":"Torum",
+    "DND5E.Language.Language.ArchaicFirstAge":"Langues Archaïques du Premier Âge",
+    "DND5E.CONSUMABLE.Type.Ingredient.Label":"Ingrédient",
+    "DND5E.CONSUMABLE.Type.Ingredient.Common":"Commun",
+    "DND5E.CONSUMABLE.Type.Ingredient.Uncommon":"Peu commun",
+    "DND5E.CONSUMABLE.Type.Ingredient.Rare":"Rare"
+}

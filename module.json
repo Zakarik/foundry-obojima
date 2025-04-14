@@ -1,0 +1,228 @@
+{
+  "id": "obojima",
+  "title": "Obojima",
+  "description": "Adaptation du système DND5E à Obojima.",
+  "authors": [
+    {
+      "name": "Zakarik"
+    }
+  ],
+  "version": "1.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "esmodules": [
+    "main.mjs"
+  ],
+  "packs": [
+    {
+      "name": "regles",
+      "label": "Règles",
+      "system": "dnd5e",
+      "path": "packs/regles.db",
+      "type": "JournalEntry",
+      "private": false,
+      "flags": {
+          "dnd5e": {
+              "display": "table-of-contents"
+          }
+      }
+    },
+    {
+      "name": "sorts",
+      "label": "Sorts",
+      "system": "dnd5e",
+      "path": "packs/sorts.db",
+      "type": "Item",
+      "private": false,
+      "flags": {
+          "dnd5e": {
+            "types":["spell"]
+          }
+      }
+    },
+    {
+      "name": "races",
+      "label": "Races",
+      "system": "dnd5e",
+      "path": "packs/races.db",
+      "type": "Item",
+      "private": false,
+      "flags": {
+          "dnd5e": {
+            "types":["race", "feat"]
+          }
+      }
+    },
+    {
+      "name": "invocations",
+      "label": "Invocations",
+      "system": "dnd5e",
+      "path": "packs/invocations.db",
+      "type": "Actor",
+      "private": false,
+      "flags": {
+          "dnd5e": {
+            "types":["npc", "vehicle"]
+          }
+      }
+    },
+    {
+      "name": "tables-aleatoires",
+      "label": "Tables",
+      "system": "dnd5e",
+      "path": "packs/tables-aleatoires.db",
+      "type": "RollTable",
+      "private": false
+    },
+    {
+      "name": "aptitudes-de-sous-classes",
+      "label": "Aptitudes de sous classes",
+      "system": "dnd5e",
+      "path": "packs/aptitudes-de-sous-classes.db",
+      "type": "Item",
+      "private": false,
+      "flags": {
+          "dnd5e": {
+              "types": [
+                  "feat",
+                  "classfeatures"
+              ]
+          }
+      }
+    },
+    {
+      "name": "sous-classes",
+      "label": "Sous-classes",
+      "system": "dnd5e",
+      "path": "packs/sous-classes.db",
+      "type": "Item",
+      "private": false,
+      "flags": {
+          "dnd5e": {
+              "types": [
+                  "subclasses"
+              ]
+          }
+      }
+    },
+    {
+      "name": "historiques",
+      "label": "Historiques",
+      "system": "dnd5e",
+      "path": "packs/historiques.db",
+      "type": "Item",
+      "private": false,
+      "flags": {
+          "dnd5e": {
+              "types": [
+                  "backgrounds"
+              ]
+          }
+      }
+    },
+    {
+      "name": "nouveaux-objets",
+      "label": "Nouveaux objets",
+      "system": "dnd5e",
+      "path": "packs/nouveaux-objets.db",
+      "type": "Item",
+      "private": false,
+      "flags": {
+          "dnd5e": {
+              "types": [
+                  "items",
+                  "equipment",
+                  "consumable",
+                  "tool",
+                  "weapon"
+              ]
+          }
+      }
+    },
+    {
+      "name": "vehicules",
+      "label": "Nouveaux véhicules",
+      "system": "dnd5e",
+      "path": "packs/vehicules.db",
+      "type": "Actor",
+      "private": false,
+      "flags": {
+          "dnd5e": {
+            "types":["vehicle"]
+          }
+      }
+    },
+    {
+      "name": "dons",
+      "label": "Nouveaux dons",
+      "system": "dnd5e",
+      "path": "packs/dons.db",
+      "type": "Item",
+      "private": false,
+      "flags": {
+          "dnd5e": {
+            "types":["feat"]
+          }
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Obojima",
+      "sorting": "m",
+      "color": "#cd2c1e",
+      "packs": [
+        "regles",
+        "tables-aleatoires",
+        "nouveaux-objets",
+        "vehicules"
+      ],
+      "folders": [
+        {
+          "name": "Personnages",
+          "sorting": "m",
+          "color": "#b72c1f",
+          "packs": [
+            "races",
+            "sorts",
+            "invocations",
+            "sous-classes",
+            "aptitudes-de-sous-classes",
+            "historiques",
+            "dons"
+          ]
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json",
+        "flags": {}
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+        "sourceBooks": {
+            "obojima": "SOURCE.BOOK.OBOJIMA"
+        },
+        "spellLists": [
+            "Compendium.obojima.regles.JournalEntry.EmVb8uBX9fZ0Dyti.JournalEntryPage.JWS1ZEn9H2umEqvt",
+            "Compendium.obojima.regles.JournalEntry.EmVb8uBX9fZ0Dyti.JournalEntryPage.A21yY8c9KxcCGx6b",
+            "Compendium.obojima.regles.JournalEntry.EmVb8uBX9fZ0Dyti.JournalEntryPage.72wQ7UHmth4cZW1I",
+            "Compendium.obojima.regles.JournalEntry.EmVb8uBX9fZ0Dyti.JournalEntryPage.kARDlnbfa3t9lQPr",
+            "Compendium.obojima.regles.JournalEntry.EmVb8uBX9fZ0Dyti.JournalEntryPage.IxZuyJBGmIXZD1Bk",
+            "Compendium.obojima.regles.JournalEntry.EmVb8uBX9fZ0Dyti.JournalEntryPage.lMrND7p46L300r8O",
+            "Compendium.obojima.regles.JournalEntry.EmVb8uBX9fZ0Dyti.JournalEntryPage.UPpHGNvNTVFyy2CS"
+        ]
+    }
+  },
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "changelog": ""
+}
